@@ -11,10 +11,12 @@
 	      rel="stylesheet">
 	<link rel="stylesheet"
 	      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/styl.css">
+<!--	<link rel="stylesheet" href="./css/style.css">-->
+
 </head>
 <body>
-<header>
+<header class="border">
 	<div class="container wrapper">
 		<nav class="nav wrapper">
 			<a class="logo link" href="./index.html">Web<span>Studio</span></a>
@@ -30,8 +32,26 @@
 				<li class="item"><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
 			</ul>
 		</address>
+		<button data-modal-close class="">
+		<svg class="nav-img">
+			<use href="./images/icons.svg#icon-send"></use>
+		</svg>
+		</button>
 	</div>
 </header>
+
+
+<!--mobile menu-->
+<!--<div>-->
+<!--	<a class="logo link" href="./index.html">Web<span>Studio</span></a>-->
+<!--	<ul class="site-nav list">-->
+<!--		<li class="item"><a class="link active" href="./index.html">Studio</a></li>-->
+<!--		<li class="item"><a class="link" href="./portfolio.html">Portfolio</a></li>-->
+<!--		<li class="item"><a class="link" href="">Contacts</a></li>-->
+<!--	</ul>-->
+<!--</div>-->
+
+
 <main>
 	<!--	hero-->
 	<section class="hero img-bg">
@@ -96,7 +116,7 @@
 		</div>
 	</section>
 	<!--	What are we doing-->
-	<section class="section">
+	<section class="section hidden">
 		<div class="container">
 			<h2 class="section-title">
 				What are we doing
@@ -373,6 +393,7 @@
 	</div>
 </footer>
 
+<!--modal-->
 <div class="backdrop is-hidden" data-modal>
 	<div class="modal">
 		<div class="hov">
