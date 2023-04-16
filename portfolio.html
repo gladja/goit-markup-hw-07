@@ -11,7 +11,7 @@
 	      rel="stylesheet">
 	<link rel="stylesheet"
 	      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="css/styl.css">
 </head>
 <body>
 <header class="border">
@@ -217,7 +217,7 @@
 	<div class="container">
 		<div class="footer-wrap">
 			<div class="footer-first">
-				<a class="logo link" href="./index.html">Web<span class="footer-text">Studio</span></a>
+				<a class="logo link logo-wrap" href="./index.html">Web<span class="footer-text">Studio</span></a>
 				<p class="footer-text text">
 					Increase the flow of customers and sales for your business with digital marketing & growth
 					solutions.
@@ -260,13 +260,14 @@
 
 			<div class="footer-third">
 				<h3 class="social-title space">Subscribe</h3>
-				<div class="form-wrap">
-					<input class="form-sub" type="email" name="mail" placeholder="E-mail">
-					<button class="btn btn-sub" type="button">Subscribe</button>
-					<svg class="form-sub-img">
-						<use href="./images/icons.svg#icon-send"></use>
-					</svg>
-				</div>
+				<form class="form">
+					<input class="form-sub" type="email" name="mail" placeholder="E-mail" required>
+					<button class="btn btn-sub" type="submit">Subscribe
+						<svg class="form-sub-img">
+							<use href="./images/icons.svg#icon-send"></use>
+						</svg>
+					</button>
+				</form>
 			</div>
 		</div>
 	</div>
