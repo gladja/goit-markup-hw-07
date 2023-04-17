@@ -935,3 +935,14 @@ body {
 .btn-modal-send:focus {
     background: var(--color-btn-hover);
 }
+
+
+
+/*img {*/
+/*display: block;*/
+/*max-width: 100%;*/
+/*height: auto;*/
+/*}*/
+
+
+/*srcset='./images/name.jpg 1x, ./images/name.jpg 2x'*/
