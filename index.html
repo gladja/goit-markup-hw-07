@@ -18,8 +18,8 @@
 <header class="border">
 
 	<!--mobile menu-->
-	<div class="modal-mob">
-		<button class="btn-modal hov">
+	<div class="modal-mob js-menu-container">
+		<button class="btn-modal js-close-menu">
 			<svg class="modal-img-item">
 				<use href="./images/icons.svg#icon-vector"></use>
 			</svg>
@@ -33,10 +33,42 @@
 		</nav>
 		<address class="adr-mob">
 			<ul class="site-adr-mob list">
+				<li class="item"><a class="link large" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
 				<li class="item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-				<li class="item"><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
 			</ul>
 		</address>
+
+		<ul class="team-img list">
+			<li>
+				<a href="#" class="team-img-wrap">
+					<svg class="team-img-item">
+						<use href="./images/icons.svg#icon-instagram"></use>
+					</svg>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="team-img-wrap">
+					<svg class="team-img-item">
+						<use href="./images/icons.svg#icon-twitter"></use>
+					</svg>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="team-img-wrap">
+					<svg class="team-img-item">
+						<use href="./images/icons.svg#icon-facebook"></use>
+					</svg>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="team-img-wrap">
+					<svg class="team-img-item">
+						<use href="./images/icons.svg#icon-linkedin"></use>
+					</svg>
+				</a>
+			</li>
+		</ul>
+
 	</div>
 
 	<div class="container wrapper">
@@ -54,7 +86,7 @@
 				<li class="item"><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
 			</ul>
 		</address>
-		<button class="btm-menu">
+		<button class="btm-menu js-open-menu">
 		<svg class="nav-img">
 			<use href="./images/icons.svg#icon-menu"></use>
 		</svg>
@@ -474,5 +506,6 @@
 </div>
 
 <script src="./js/modal.js"></script>
+<script src="./js/mobile-menu.js"></script>
 </body>
 </html>
